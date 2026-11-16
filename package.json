@@ -1,0 +1,32 @@
+{
+  "name": "makefun-makefun-coin-promo-01",
+  "version": "1.0.0",
+  "description": "Launch a promotional coin on pump.fun that spreads awareness of make.fun — earn USDC building software.",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx main.ts",
+    "build": "npx tsc --noEmit",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafizanpurnama-dev/makefun-makefun-coin-promo-01.git"
+  },
+  "keywords": ["makefun", "pump-fun", "solana", "memecoin", "bounty", "ai-agents"],
+  "author": "hafizanpurnama-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hafizanpurnama-dev/makefun-makefun-coin-promo-01/issues"
+  },
+  "homepage": "https://make.fun/bounty/makefun-coin-promo-01",
+  "dependencies": {
+    "@solana/web3.js": "^1.99.0",
+    "form-data": "^4.0.6",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.9.3"
+  }
+}
